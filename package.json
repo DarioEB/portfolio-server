@@ -1,0 +1,25 @@
+{
+  "name": "portfolioserver",
+  "version": "1.0.0",
+  "description": "Backend portfolio personal",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Dario Barboza",
+  "license": "ISC"
+}
