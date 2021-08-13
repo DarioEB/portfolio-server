@@ -24,7 +24,7 @@ exports.sendEmail = async (req, res) => {
             from: '2-D <2-d.tech>', // sender address
             to: contact.email, // list of receivers
             subject: `Gracias por contactarte con 2-d`, // Subject line
-            text: `Hola ${contact.name}, muchas gracias por contactarte con 2-d. Te contactaré los mas pronto posible. Un saludo.`, // plain text body
+            text: `Hola ${contact.name}, muchas gracias por comunicarte con 2-d. Te contactaré los más pronto posible. Un saludo.`, // plain text body
         });
 
         const noti = await transporter.sendMail({
